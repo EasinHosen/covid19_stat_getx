@@ -1,6 +1,5 @@
 import 'package:covid19_stat/constants/page_const.dart';
 import 'package:covid19_stat/controllers/rest_data_controller.dart';
-import 'package:covid19_stat/models/world_stat_model.dart';
 import 'package:covid19_stat/utils/helper_functions.dart';
 import 'package:covid19_stat/widgets/custom_data_row.dart';
 import 'package:flutter/material.dart';

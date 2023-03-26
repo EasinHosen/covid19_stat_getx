@@ -1,4 +1,5 @@
 import 'package:covid19_stat/constants/page_const.dart';
+import 'package:covid19_stat/pages/country_details_page.dart';
 import 'package:covid19_stat/pages/country_list_page.dart';
 import 'package:covid19_stat/pages/splash_screen_page.dart';
 import 'package:covid19_stat/pages/world_stat_page.dart';
@@ -32,6 +33,10 @@ class MyApp extends StatelessWidget {
         GetPage(
           name: pageCountryList,
           page: () => CountryListPage(title: 'Track Country'),
+        ),
+        GetPage(
+          name: pageCountryDetails,
+          page: () => CountryDetailsPage(),
         ),
       ],
     );
